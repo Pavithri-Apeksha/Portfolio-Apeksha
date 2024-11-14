@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+.container{
+    height: 100vh;
+}
+.left-slider{
+    height: 100vh;
+    background-color: #dfe4ea;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-image{
+    width: 180px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.left-name h2{
+    margin-bottom: 20px;
+}
+.left-name p{
+    margin: 0px 0;
+}
+.left-name{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.left-name span{
+    color: #3498db;
+}
+.navbar{
+    display: flex;
+    margin-top: 20px;
+}
+.links{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+.links>a{
+    text-decoration: none;
+    color: #57606f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    padding-top: 15px;
+}
+.links>a:hover{
+    color: #1e90ff;
+    border-bottom: 2px solid #1e90ff;
+}
+.right-slider{
+    border: 1px red solid;
+    height: 100vh;
+}
+.page-end{
+    display: flex;
+    justify-content: center;
+    color: #57606f;
+    font-size: 10px;
+    margin-top: 30px;
+}
+.details{
+    width: 100%;
+    border: 1px red solid;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home-container{
+    display: flex;
+}
+.my-details{
+    height: 50%;
+    width: 35%;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    border: 1px solid yellow;
+}
+.my-details h1{
+    color: black;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 65px;
+    padding-top: 10px;
+}
