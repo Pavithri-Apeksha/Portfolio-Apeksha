@@ -171,3 +171,65 @@
 .my-skills .skill:nth-child(4) {
     border-bottom: 2px solid blue;
 }
+.service-head{
+    height: 18vh;
+    width: 100%;
+}
+.service-head h4{
+    letter-spacing: 4px;
+    font-size: 11px;
+    color: #656e7c;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.services-title{
+    width: 40%;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 3px;
+    margin-top: 4%;
+}
+.services-title h3{
+    font-size: 22px;
+}
+.sevices-body{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.services{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+}
+.service-logo{
+    rotate: 30deg;
+    position: relative;
+    top: 40px;
+    height: 120px;
+    aspect-ratio: 1/cos(30deg);
+    clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+}
+.service-body{
+    border: 1px solid red;
+    height: 90%;
+    width: 100%;
+    -webkit-box-shadow: 11px 15px 22px 3px rgba(163,169,179,0.61);
+-moz-box-shadow: 11px 15px 22px 3px rgba(163,169,179,0.61);
+box-shadow: 11px 15px 22px 3px rgba(163,169,179,0.61);
+}
+.s-logo-1{
+    background-color: #2980b9;
+}
+.s-logo-2{
+    background-color: #c0392b;
+}
+.s-logo-3{
+    background-color: #f1c40f;
+}
