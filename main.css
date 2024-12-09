@@ -313,7 +313,7 @@
     transform: scale(1.1);
 }
 .contact-container{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 .contact-body{
@@ -322,7 +322,6 @@
     display: flex;
 }
 .contact-left,.contact-right{
-    border: 1px solid red;
     width: 50%;
     height: 100%;
     display: flex;
@@ -331,14 +330,22 @@
 }
 .c-details{
     width: 95%;
-    height: 25%;
+    height: 30%;
     display: flex;
     align-items: center;
 }
 .c-details-log{
     height: 80%;
     width: 120px;
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f2f6;
+}
+.c-details-log svg{
+    width: 50%;
+    height: 50%;
+    object-fit: cover; 
 }
 .c-details-desc{
     height: 70%;
@@ -351,4 +358,31 @@
 .c-details-desc p{
     margin-bottom: -2px;
     color: #656e7c;
+}
+.contact-right{
+    padding:0 40px;
+}
+.contact-right form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #5fb7f2;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width: 45%;
+    height: 45px;
+    margin-top: 25px;
+}
+.btn:hover{
+    color: white;
+}
+.contact-right input{
+    height: 45px;
+}
+.form-control{
+    background-color: #f1f2f6;
 }
